@@ -1,0 +1,37 @@
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.dll.config
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02.DO\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02.DO\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.dll.config
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.dll.config
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02.DO\obj\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02.DO\bin\Debug\RSA02.DO.dll.config
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02.DO\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02.DO\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02.DO\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02.DO\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02.DO\obj\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02.DO\obj\Debug\RSA02.DO.pdb
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02.DO\bin\Debug\RSA02.DO.dll.config
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02.DO\bin\Debug\RSA02.DO.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02.DO\bin\Debug\RSA02.DO.pdb
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02.DO\bin\Debug\EntityFramework.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02.DO\bin\Debug\EntityFramework.xml
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02.DO\obj\Debug\RSA02.DO.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02.DO\obj\Debug\RSA02.DO.pdb

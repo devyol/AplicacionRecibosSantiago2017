@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModeloREC01" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EsquemaREC01" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="REC01_BANCO" EntityType="ModeloREC01.REC01_BANCO" />
+    <EntitySet Name="REC01_CONCEPTO" EntityType="ModeloREC01.REC01_CONCEPTO" />
+    <EntitySet Name="REC01_CORRELATIVO_USUARIO" EntityType="ModeloREC01.REC01_CORRELATIVO_USUARIO" />
+    <EntitySet Name="REC01_ESTADO" EntityType="ModeloREC01.REC01_ESTADO" />
+    <EntitySet Name="REC01_EVENTO" EntityType="ModeloREC01.REC01_EVENTO" />
+    <EntitySet Name="REC01_MEDIO_PAGO" EntityType="ModeloREC01.REC01_MEDIO_PAGO" />
+    <EntitySet Name="REC01_PAIS" EntityType="ModeloREC01.REC01_PAIS" />
+    <EntitySet Name="REC01_RECIBO" EntityType="ModeloREC01.REC01_RECIBO" />
+    <EntitySet Name="REC01_REGION" EntityType="ModeloREC01.REC01_REGION" />
+    <EntitySet Name="REC01_TIPO_USUARIO" EntityType="ModeloREC01.REC01_TIPO_USUARIO" />
+    <EntitySet Name="REC01_USUARIO" EntityType="ModeloREC01.REC01_USUARIO" />
+    <AssociationSet Name="FK_REC_BAN" Association="ModeloREC01.FK_REC_BAN">
+      <End Role="REC01_BANCO" EntitySet="REC01_BANCO" />
+      <End Role="REC01_RECIBO" EntitySet="REC01_RECIBO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REC_CON" Association="ModeloREC01.FK_REC_CON">
+      <End Role="REC01_CONCEPTO" EntitySet="REC01_CONCEPTO" />
+      <End Role="REC01_RECIBO" EntitySet="REC01_RECIBO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_US_CORR" Association="ModeloREC01.FK_US_CORR">
+      <End Role="REC01_USUARIO" EntitySet="REC01_USUARIO" />
+      <End Role="REC01_CORRELATIVO_USUARIO" EntitySet="REC01_CORRELATIVO_USUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REC_EVE" Association="ModeloREC01.FK_REC_EVE">
+      <End Role="REC01_EVENTO" EntitySet="REC01_EVENTO" />
+      <End Role="REC01_RECIBO" EntitySet="REC01_RECIBO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REC_MP" Association="ModeloREC01.FK_REC_MP">
+      <End Role="REC01_MEDIO_PAGO" EntitySet="REC01_MEDIO_PAGO" />
+      <End Role="REC01_RECIBO" EntitySet="REC01_RECIBO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REC_PAIS" Association="ModeloREC01.FK_REC_PAIS">
+      <End Role="REC01_PAIS" EntitySet="REC01_PAIS" />
+      <End Role="REC01_RECIBO" EntitySet="REC01_RECIBO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REGION_PAIS" Association="ModeloREC01.FK_REGION_PAIS">
+      <End Role="REC01_REGION" EntitySet="REC01_REGION" />
+      <End Role="REC01_PAIS" EntitySet="REC01_PAIS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_US_TIPOUS" Association="ModeloREC01.FK_US_TIPOUS">
+      <End Role="REC01_TIPO_USUARIO" EntitySet="REC01_TIPO_USUARIO" />
+      <End Role="REC01_USUARIO" EntitySet="REC01_USUARIO" />
+    </AssociationSet>
+    <EntitySet Name="REC01_ANULACION" EntityType="ModeloREC01.REC01_ANULACION" />
+    <AssociationSet Name="FK_RE_US" Association="ModeloREC01.FK_RE_US">
+      <End Role="REC01_RECIBO" EntitySet="REC01_RECIBO" />
+      <End Role="REC01_ANULACION" EntitySet="REC01_ANULACION" />
+    </AssociationSet>
+    <EntitySet Name="REC01_CORRELATIVO_RECIBO" EntityType="ModeloREC01.REC01_CORRELATIVO_RECIBO" />
+  </EntityContainer>
+  <EntityType Name="REC01_BANCO">
+    <Key>
+      <PropertyRef Name="BANCO" />
+    </Key>
+    <Property Name="BANCO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NOMBRE" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_RECIBO" Relationship="ModeloREC01.FK_REC_BAN" FromRole="REC01_BANCO" ToRole="REC01_RECIBO" />
+  </EntityType>
+  <EntityType Name="REC01_CONCEPTO">
+    <Key>
+      <PropertyRef Name="CONCEPTO" />
+    </Key>
+    <Property Name="CONCEPTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="PRECIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_RECIBO" Relationship="ModeloREC01.FK_REC_CON" FromRole="REC01_CONCEPTO" ToRole="REC01_RECIBO" />
+  </EntityType>
+  <EntityType Name="REC01_CORRELATIVO_USUARIO">
+    <Key>
+      <PropertyRef Name="USUARIO" />
+    </Key>
+    <Property Name="USUARIO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CORRELATIVO_DISPONIBLE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_USUARIO" Relationship="ModeloREC01.FK_US_CORR" FromRole="REC01_CORRELATIVO_USUARIO" ToRole="REC01_USUARIO" />
+  </EntityType>
+  <EntityType Name="REC01_ESTADO">
+    <Key>
+      <PropertyRef Name="ESTADO" />
+    </Key>
+    <Property Name="ESTADO" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="REC01_EVENTO">
+    <Key>
+      <PropertyRef Name="EVENTO" />
+    </Key>
+    <Property Name="EVENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NOMBRE" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_RECIBO" Relationship="ModeloREC01.FK_REC_EVE" FromRole="REC01_EVENTO" ToRole="REC01_RECIBO" />
+  </EntityType>
+  <EntityType Name="REC01_MEDIO_PAGO">
+    <Key>
+      <PropertyRef Name="MEDIO_PAGO" />
+    </Key>
+    <Property Name="MEDIO_PAGO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_RECIBO" Relationship="ModeloREC01.FK_REC_MP" FromRole="REC01_MEDIO_PAGO" ToRole="REC01_RECIBO" />
+  </EntityType>
+  <EntityType Name="REC01_PAIS">
+    <Key>
+      <PropertyRef Name="PAIS" />
+    </Key>
+    <Property Name="PAIS" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="REGION" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_RECIBO" Relationship="ModeloREC01.FK_REC_PAIS" FromRole="REC01_PAIS" ToRole="REC01_RECIBO" />
+    <NavigationProperty Name="REC01_REGION" Relationship="ModeloREC01.FK_REGION_PAIS" FromRole="REC01_PAIS" ToRole="REC01_REGION" />
+  </EntityType>
+  <EntityType Name="REC01_RECIBO">
+    <Key>
+      <PropertyRef Name="RECIBO" />
+      <PropertyRef Name="USUARIO_CREACION" />
+    </Key>
+    <Property Name="RECIBO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NOMBRE" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="NIT" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="TELEFONO" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="MEDIO_PAGO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="BANCO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="NUMERO_CHEQUE" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="CONCEPTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TOTAL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TOTAL_LETRAS" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="PRECIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CANTIDAD" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="EVENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PAIS" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="OBSERVACION_1" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="OBSERVACION_2" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="OBSERVACION_3" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_BANCO" Relationship="ModeloREC01.FK_REC_BAN" FromRole="REC01_RECIBO" ToRole="REC01_BANCO" />
+    <NavigationProperty Name="REC01_CONCEPTO" Relationship="ModeloREC01.FK_REC_CON" FromRole="REC01_RECIBO" ToRole="REC01_CONCEPTO" />
+    <NavigationProperty Name="REC01_EVENTO" Relationship="ModeloREC01.FK_REC_EVE" FromRole="REC01_RECIBO" ToRole="REC01_EVENTO" />
+    <NavigationProperty Name="REC01_MEDIO_PAGO" Relationship="ModeloREC01.FK_REC_MP" FromRole="REC01_RECIBO" ToRole="REC01_MEDIO_PAGO" />
+    <NavigationProperty Name="REC01_PAIS" Relationship="ModeloREC01.FK_REC_PAIS" FromRole="REC01_RECIBO" ToRole="REC01_PAIS" />
+    <NavigationProperty Name="REC01_ANULACION" Relationship="ModeloREC01.FK_RE_US" FromRole="REC01_RECIBO" ToRole="REC01_ANULACION" />
+    <Property Type="Decimal" Name="RECIBO_FISICO" Precision="38" Scale="0" />
+    <Property Type="String" Name="SERIE_RECIBO" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="REC01_REGION">
+    <Key>
+      <PropertyRef Name="REGION" />
+    </Key>
+    <Property Name="REGION" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_PAIS" Relationship="ModeloREC01.FK_REGION_PAIS" FromRole="REC01_REGION" ToRole="REC01_PAIS" />
+  </EntityType>
+  <EntityType Name="REC01_TIPO_USUARIO">
+    <Key>
+      <PropertyRef Name="TIPO_USUARIO" />
+    </Key>
+    <Property Name="TIPO_USUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_USUARIO" Relationship="ModeloREC01.FK_US_TIPOUS" FromRole="REC01_TIPO_USUARIO" ToRole="REC01_USUARIO" />
+  </EntityType>
+  <EntityType Name="REC01_USUARIO">
+    <Key>
+      <PropertyRef Name="USUARIO" />
+    </Key>
+    <Property Name="USUARIO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TIPO_USUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="NOMBRE" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="128" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO_REGISTRO" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="USUARIO_CREACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" />
+    <Property Name="USUARIO_MODIFICACION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" />
+    <NavigationProperty Name="REC01_CORRELATIVO_USUARIO" Relationship="ModeloREC01.FK_US_CORR" FromRole="REC01_USUARIO" ToRole="REC01_CORRELATIVO_USUARIO" />
+    <NavigationProperty Name="REC01_TIPO_USUARIO" Relationship="ModeloREC01.FK_US_TIPOUS" FromRole="REC01_USUARIO" ToRole="REC01_TIPO_USUARIO" />
+  </EntityType>
+  <Association Name="FK_REC_BAN">
+    <End Role="REC01_BANCO" Type="ModeloREC01.REC01_BANCO" Multiplicity="0..1" />
+    <End Role="REC01_RECIBO" Type="ModeloREC01.REC01_RECIBO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_BANCO">
+        <PropertyRef Name="BANCO" />
+      </Principal>
+      <Dependent Role="REC01_RECIBO">
+        <PropertyRef Name="BANCO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REC_CON">
+    <End Role="REC01_CONCEPTO" Type="ModeloREC01.REC01_CONCEPTO" Multiplicity="0..1" />
+    <End Role="REC01_RECIBO" Type="ModeloREC01.REC01_RECIBO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_CONCEPTO">
+        <PropertyRef Name="CONCEPTO" />
+      </Principal>
+      <Dependent Role="REC01_RECIBO">
+        <PropertyRef Name="CONCEPTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_US_CORR">
+    <End Role="REC01_USUARIO" Type="ModeloREC01.REC01_USUARIO" Multiplicity="1" />
+    <End Role="REC01_CORRELATIVO_USUARIO" Type="ModeloREC01.REC01_CORRELATIVO_USUARIO" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_USUARIO">
+        <PropertyRef Name="USUARIO" />
+      </Principal>
+      <Dependent Role="REC01_CORRELATIVO_USUARIO">
+        <PropertyRef Name="USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REC_EVE">
+    <End Role="REC01_EVENTO" Type="ModeloREC01.REC01_EVENTO" Multiplicity="0..1" />
+    <End Role="REC01_RECIBO" Type="ModeloREC01.REC01_RECIBO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_EVENTO">
+        <PropertyRef Name="EVENTO" />
+      </Principal>
+      <Dependent Role="REC01_RECIBO">
+        <PropertyRef Name="EVENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REC_MP">
+    <End Role="REC01_MEDIO_PAGO" Type="ModeloREC01.REC01_MEDIO_PAGO" Multiplicity="0..1" />
+    <End Role="REC01_RECIBO" Type="ModeloREC01.REC01_RECIBO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_MEDIO_PAGO">
+        <PropertyRef Name="MEDIO_PAGO" />
+      </Principal>
+      <Dependent Role="REC01_RECIBO">
+        <PropertyRef Name="MEDIO_PAGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REC_PAIS">
+    <End Role="REC01_PAIS" Type="ModeloREC01.REC01_PAIS" Multiplicity="0..1" />
+    <End Role="REC01_RECIBO" Type="ModeloREC01.REC01_RECIBO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_PAIS">
+        <PropertyRef Name="PAIS" />
+      </Principal>
+      <Dependent Role="REC01_RECIBO">
+        <PropertyRef Name="PAIS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REGION_PAIS">
+    <End Role="REC01_REGION" Type="ModeloREC01.REC01_REGION" Multiplicity="0..1" />
+    <End Role="REC01_PAIS" Type="ModeloREC01.REC01_PAIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_REGION">
+        <PropertyRef Name="REGION" />
+      </Principal>
+      <Dependent Role="REC01_PAIS">
+        <PropertyRef Name="REGION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_US_TIPOUS">
+    <End Role="REC01_TIPO_USUARIO" Type="ModeloREC01.REC01_TIPO_USUARIO" Multiplicity="0..1" />
+    <End Role="REC01_USUARIO" Type="ModeloREC01.REC01_USUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_TIPO_USUARIO">
+        <PropertyRef Name="TIPO_USUARIO" />
+      </Principal>
+      <Dependent Role="REC01_USUARIO">
+        <PropertyRef Name="TIPO_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="REC01_ANULACION">
+    <Key>
+      <PropertyRef Name="ANULACION" />
+    </Key>
+    <Property Type="Decimal" Name="ANULACION" Nullable="false" Precision="38" Scale="0" />
+    <Property Type="Decimal" Name="RECIBO" Precision="38" Scale="0" />
+    <Property Type="String" Name="USUARIO_CREACION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MOTIVO" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ESTADO_REGISTRO" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="USUARIO_ANULACION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_ANULACION" />
+    <NavigationProperty Name="REC01_RECIBO" Relationship="ModeloREC01.FK_RE_US" FromRole="REC01_ANULACION" ToRole="REC01_RECIBO" />
+    <Property Type="Decimal" Name="RECIBO_FISICO" Precision="38" Scale="0" />
+    <Property Type="String" Name="SERIE" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_RE_US">
+    <End Type="ModeloREC01.REC01_RECIBO" Role="REC01_RECIBO" Multiplicity="0..1" />
+    <End Type="ModeloREC01.REC01_ANULACION" Role="REC01_ANULACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC01_RECIBO">
+        <PropertyRef Name="RECIBO" />
+        <PropertyRef Name="USUARIO_CREACION" />
+      </Principal>
+      <Dependent Role="REC01_ANULACION">
+        <PropertyRef Name="RECIBO" />
+        <PropertyRef Name="USUARIO_CREACION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="REC01_CORRELATIVO_RECIBO">
+    <Key>
+      <PropertyRef Name="EVENTO" />
+      <PropertyRef Name="USUARIO" />
+    </Key>
+    <Property Type="Decimal" Name="EVENTO" Nullable="false" Precision="38" Scale="0" />
+    <Property Type="String" Name="USUARIO" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="CORRELATIVO_ACTUAL" Precision="38" Scale="0" />
+    <Property Type="Decimal" Name="CORRELATIVO_FINAL" Precision="38" Scale="0" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ESTADO_REGISTRO" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="USUARIO_CREACION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_CREACION" />
+    <Property Type="String" Name="USUARIO_MODIFICACION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_MODIFICACION" />
+    <Property Type="String" Name="SERIE" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6a0e385f84640d8863a56214683212d" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelRecibo.REC01_ANULACION" Width="1.5" PointX="7.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_BANCO" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_CONCEPTO" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_CORRELATIVO_RECIBO" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_CORRELATIVO_USUARIO" Width="1.5" PointX="12.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_ESTADO" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_EVENTO" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_MEDIO_PAGO" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_PAIS" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_PARTICIPANTE" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_RECIBO" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_REGION" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_TIPO_USUARIO" Width="1.5" PointX="7.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelRecibo.REC01_USUARIO" Width="1.5" PointX="10" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="ModelRecibo.FK_RE_US" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_REC_BAN" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_REC_CON" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_US_CORR" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_REC_EVE" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_REC_MP" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_REC_PAIS" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_REGION_PAIS" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelRecibo.FK_US_TIPOUS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A304125-F3C1-4B48-9F4C-9821CB50D943}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSA02.DO</RootNamespace>
+    <AssemblyName>RSA02.DO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DATA\ModeloRecibo.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloRecibo.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\ModeloRecibo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\ModeloRecibo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloRecibo.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_ANULACION.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_BANCO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_CONCEPTO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_CORRELATIVO_RECIBO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_CORRELATIVO_USUARIO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_ESTADO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_EVENTO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_MEDIO_PAGO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_PAIS.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_PARTICIPANTE.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_RECIBO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_REGION.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_TIPO_USUARIO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA\REC01_USUARIO.cs">
+      <DependentUpon>ModeloRecibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="DATA\ModeloRecibo.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModeloRecibo.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DATA\ModeloRecibo.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloRecibo.edmx</DependentUpon>
+      <LastGenOutput>ModeloRecibo.Context.cs</LastGenOutput>
+    </None>
+    <None Include="DATA\ModeloRecibo.edmx.diagram">
+      <DependentUpon>ModeloRecibo.edmx</DependentUpon>
+    </None>
+    <None Include="DATA\ModeloRecibo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloRecibo.edmx</DependentUpon>
+      <LastGenOutput>ModeloRecibo.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dts_Pais" targetNamespace="http://tempuri.org/dts_Pais.xsd" xmlns:mstns="http://tempuri.org/dts_Pais.xsd" xmlns="http://tempuri.org/dts_Pais.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dts_Pais" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dts_Pais" msprop:Generator_UserDSName="dts_Pais">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dts_Pais" msprop:Generator_TableClassName="dts_PaisDataTable" msprop:Generator_TableVarName="tabledts_Pais" msprop:Generator_TablePropName="_dts_Pais" msprop:Generator_RowDeletingName="dts_PaisRowDeleting" msprop:Generator_RowChangingName="dts_PaisRowChanging" msprop:Generator_RowEvHandlerName="dts_PaisRowChangeEventHandler" msprop:Generator_RowDeletedName="dts_PaisRowDeleted" msprop:Generator_UserTableName="dts_Pais" msprop:Generator_RowChangedName="dts_PaisRowChanged" msprop:Generator_RowEvArgName="dts_PaisRowChangeEvent" msprop:Generator_RowClassName="dts_PaisRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="evento" msprop:Generator_ColumnVarNameInTable="columnevento" msprop:Generator_ColumnPropNameInRow="evento" msprop:Generator_ColumnPropNameInTable="eventoColumn" msprop:Generator_UserColumnName="evento" type="xs:string" minOccurs="0" />
+              <xs:element name="pais" msprop:Generator_ColumnVarNameInTable="columnpais" msprop:Generator_ColumnPropNameInRow="pais" msprop:Generator_ColumnPropNameInTable="paisColumn" msprop:Generator_UserColumnName="pais" type="xs:string" minOccurs="0" />
+              <xs:element name="total_participantes" msprop:Generator_ColumnVarNameInTable="columntotal_participantes" msprop:Generator_ColumnPropNameInRow="total_participantes" msprop:Generator_ColumnPropNameInTable="total_participantesColumn" msprop:Generator_UserColumnName="total_participantes" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_inicial" msprop:Generator_ColumnVarNameInTable="columnfecha_inicial" msprop:Generator_ColumnPropNameInRow="fecha_inicial" msprop:Generator_ColumnPropNameInTable="fecha_inicialColumn" msprop:Generator_UserColumnName="fecha_inicial" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_final" msprop:Generator_ColumnVarNameInTable="columnfecha_final" msprop:Generator_ColumnPropNameInRow="fecha_final" msprop:Generator_ColumnPropNameInTable="fecha_finalColumn" msprop:Generator_UserColumnName="fecha_final" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

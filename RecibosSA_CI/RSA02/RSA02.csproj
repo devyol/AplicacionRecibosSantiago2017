@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA0A9C66-DD8E-45FE-80BF-D0556F0B6CAD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSA02</RootNamespace>
+    <AssemblyName>RSA02</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Recibo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SEG01_DO">
+      <HintPath>..\..\..\..\PROYECTOS .NET\SEG01_DO.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Global.cs" />
+    <Compile Include="Clases\impresor.cs" />
+    <Compile Include="Clases\Mensaje.cs" />
+    <Compile Include="Clases\NumeroLetras.cs" />
+    <Compile Include="Clases\reciboEntidad.cs" />
+    <Compile Include="DTS\dts_Concepto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_Concepto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DTS\dts_globalAnulados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_globalAnulados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DTS\dts_globalEvento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_globalEvento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DTS\dts_globalFecha.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_globalFecha.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DTS\dts_Pais.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_Pais.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DTS\dts_recibo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_recibo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdminContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdminContrasena.Designer.cs">
+      <DependentUpon>FormAdminContrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdminPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdminPrincipal.Designer.cs">
+      <DependentUpon>FormAdminPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAnulacion.Designer.cs">
+      <DependentUpon>FormAnulacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContrasena.Designer.cs">
+      <DependentUpon>FormContrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento.Designer.cs">
+      <DependentUpon>FormEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMantBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMantBanco.Designer.cs">
+      <DependentUpon>FormMantBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMantConcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMantConcepto.Designer.cs">
+      <DependentUpon>FormMantConcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMantCorrelativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMantCorrelativo.Designer.cs">
+      <DependentUpon>FormMantCorrelativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMantEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMantEvento.Designer.cs">
+      <DependentUpon>FormMantEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMantPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMantPais.Designer.cs">
+      <DependentUpon>FormMantPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNuevoUsuario.Designer.cs">
+      <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReciboEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReciboEvento.Designer.cs">
+      <DependentUpon>FormReciboEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteEvento.Designer.cs">
+      <DependentUpon>FormReporteEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteGlobal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteGlobal.Designer.cs">
+      <DependentUpon>FormReporteGlobal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPrevia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPrevia.Designer.cs">
+      <DependentUpon>FormVistaPrevia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPreviaConceptoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPreviaConceptoUsuario.Designer.cs">
+      <DependentUpon>FormVistaPreviaConceptoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPreviaEventoDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPreviaEventoDetalle.Designer.cs">
+      <DependentUpon>FormVistaPreviaEventoDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalAlimentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalAlimentacion.Designer.cs">
+      <DependentUpon>FormVistaPreviaGlobalAlimentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalAnulados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalAnulados.Designer.cs">
+      <DependentUpon>FormVistaPreviaGlobalAnulados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalConcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalConcepto.Designer.cs">
+      <DependentUpon>FormVistaPreviaGlobalConcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalDetalle.Designer.cs">
+      <DependentUpon>FormVistaPreviaGlobalDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVistaPreviaGlobalPais.Designer.cs">
+      <DependentUpon>FormVistaPreviaGlobalPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Banco.cs" />
+    <Compile Include="Model\Concepto.cs" />
+    <Compile Include="Model\Evento.cs" />
+    <Compile Include="Model\Login.cs" />
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Pais.cs" />
+    <Compile Include="Model\Participante.cs" />
+    <Compile Include="Model\Recibo.cs" />
+    <Compile Include="Model\Reporteria.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAdminContrasena.resx">
+      <DependentUpon>FormAdminContrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdminPrincipal.resx">
+      <DependentUpon>FormAdminPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAnulacion.resx">
+      <DependentUpon>FormAnulacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormContrasena.resx">
+      <DependentUpon>FormContrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento.resx">
+      <DependentUpon>FormEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMantBanco.resx">
+      <DependentUpon>FormMantBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMantConcepto.resx">
+      <DependentUpon>FormMantConcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMantCorrelativo.resx">
+      <DependentUpon>FormMantCorrelativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMantEvento.resx">
+      <DependentUpon>FormMantEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMantPais.resx">
+      <DependentUpon>FormMantPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNuevoUsuario.resx">
+      <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReciboEvento.resx">
+      <DependentUpon>FormReciboEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteEvento.resx">
+      <DependentUpon>FormReporteEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteGlobal.resx">
+      <DependentUpon>FormReporteGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPrevia.resx">
+      <DependentUpon>FormVistaPrevia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPreviaConceptoUsuario.resx">
+      <DependentUpon>FormVistaPreviaConceptoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPreviaEventoDetalle.resx">
+      <DependentUpon>FormVistaPreviaEventoDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPreviaGlobalAlimentacion.resx">
+      <DependentUpon>FormVistaPreviaGlobalAlimentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPreviaGlobalAnulados.resx">
+      <DependentUpon>FormVistaPreviaGlobalAnulados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPreviaGlobalConcepto.resx">
+      <DependentUpon>FormVistaPreviaGlobalConcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPreviaGlobalDetalle.resx">
+      <DependentUpon>FormVistaPreviaGlobalDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVistaPreviaGlobalPais.resx">
+      <DependentUpon>FormVistaPreviaGlobalPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reportes\RptfechaAlimentacion.rdlc" />
+    <EmbeddedResource Include="Reportes\RptfechaConcepto.rdlc" />
+    <EmbeddedResource Include="Reportes\RptglobalAnulados.rdlc" />
+    <EmbeddedResource Include="Reportes\RptglobalConcepto.rdlc" />
+    <EmbeddedResource Include="Reportes\RptglobalEvento.rdlc" />
+    <EmbeddedResource Include="Reportes\RptglobalFecha.rdlc" />
+    <EmbeddedResource Include="Reportes\RptglobalPais.rdlc" />
+    <EmbeddedResource Include="Reportes\RptImpresionCheque.rdlc" />
+    <EmbeddedResource Include="Reportes\RptImpresionEfectivo.rdlc" />
+    <None Include="DTS\dts_Concepto.xsc">
+      <DependentUpon>dts_Concepto.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_Concepto.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_Concepto.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTS\dts_Concepto.xss">
+      <DependentUpon>dts_Concepto.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_globalAnulados.xsc">
+      <DependentUpon>dts_globalAnulados.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_globalAnulados.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_globalAnulados.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTS\dts_globalAnulados.xss">
+      <DependentUpon>dts_globalAnulados.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_globalEvento.xsc">
+      <DependentUpon>dts_globalEvento.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_globalEvento.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_globalEvento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTS\dts_globalEvento.xss">
+      <DependentUpon>dts_globalEvento.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_globalFecha.xsc">
+      <DependentUpon>dts_globalFecha.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_globalFecha.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_globalFecha.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTS\dts_globalFecha.xss">
+      <DependentUpon>dts_globalFecha.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_Pais.xsc">
+      <DependentUpon>dts_Pais.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_Pais.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_Pais.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTS\dts_Pais.xss">
+      <DependentUpon>dts_Pais.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_recibo.xsc">
+      <DependentUpon>dts_recibo.xsd</DependentUpon>
+    </None>
+    <None Include="DTS\dts_recibo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_recibo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTS\dts_recibo.xss">
+      <DependentUpon>dts_recibo.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RSA02.DO\RSA02.DO.csproj">
+      <Project>{0a304125-f3c1-4b48-9f4c-9821cb50d943}</Project>
+      <Name>RSA02.DO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Image\IDJPMG.jpg" />
+    <Content Include="Recibo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,245 @@
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\bin\Debug\RSA02.exe.config
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\bin\Debug\RSA02.exe
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\bin\Debug\RSA02.pdb
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\obj\Debug\RSA02.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\obj\Debug\RSA02.Properties.Resources.resources
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\obj\Debug\RSA02.csproj.GenerateResource.Cache
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\obj\Debug\RSA02.exe
+C:\Users\eyol\Documents\Erik\PROYECTOS .NET\.net 2012\RecibosSA\RSA02\obj\Debug\RSA02.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\RSA02.exe.config
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\RSA02.exe
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\RSA02.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\SEG01_DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmAdminContrasena.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmAdminPrincipal.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.FrmContrasena.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmLogin.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmNuevoUsuario.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmPrincipal.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmReciboEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.Properties.Resources.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.csproj.GenerateResource.Cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.exe
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmMantEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmMantBanco.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmMantPais.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPrevia.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RdlCompile.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RdlCompile.compiled
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmMantConcepto.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmAnulacion.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmReporteGlobal.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalDetalle.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmReporteEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaEventoDetalle.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalPais.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalConcepto.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAlimentacion.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaConceptoUsuario.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAnulados.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\RSA02.exe.config
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.exe
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.pdb
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\RSA02.exe
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\RSA02.pdb
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmAdminContrasena.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmAdminPrincipal.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmAnulacion.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.FrmContrasena.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmEvento.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmLogin.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmMantBanco.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmMantConcepto.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmMantEvento.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmMantPais.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmNuevoUsuario.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmPrincipal.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmReciboEvento.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmReporteEvento.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmReporteGlobal.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPrevia.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaConceptoUsuario.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaEventoDetalle.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAlimentacion.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAnulados.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalConcepto.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalDetalle.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalPais.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.Properties.Resources.resources
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RSA02.csproj.GenerateResource.Cache
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RdlCompile.cache
+C:\Users\eyol\Documents\RecibosSA\RSA02\obj\Debug\RdlCompile.compiled
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\Microsoft.CSharp.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Data.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Data.Entity.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Deployment.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Drawing.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Security.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Transactions.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Web.Services.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Windows.Forms.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Xml.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\System.Xml.Linq.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\RecibosSA\RSA02\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\RSA02.exe.config
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\RSA02.exe
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\RSA02.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\Microsoft.CSharp.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\RSA02.DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\SEG01_DO.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Data.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Data.Entity.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Deployment.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Drawing.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Security.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Transactions.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Web.Services.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Windows.Forms.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Xml.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\System.Xml.Linq.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\RSA02.DO.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmAdminContrasena.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmAdminPrincipal.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmAnulacion.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.FrmContrasena.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmLogin.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantBanco.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantConcepto.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantCorrelativo.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantPais.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmNuevoUsuario.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmPrincipal.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmReciboEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmReporteEvento.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmReporteGlobal.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPrevia.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaConceptoUsuario.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaEventoDetalle.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAlimentacion.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAnulados.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalConcepto.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalDetalle.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalPais.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.Properties.Resources.resources
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.csproj.GenerateResource.Cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RdlCompile.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RdlCompile.compiled
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.exe
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Recibos\RecibosSA_CI\RSA02\obj\Debug\RSA02.pdb
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\RSA02.exe.config
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.exe
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.pdb
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\RSA02.exe
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\RSA02.pdb
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\EntityFramework.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\RSA02.DO.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Data.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Data.Entity.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Deployment.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Drawing.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Security.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Transactions.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Web.Services.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Windows.Forms.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Xml.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\System.Xml.Linq.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\RSA02.DO.pdb
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\EntityFramework.xml
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmAdminContrasena.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmAdminPrincipal.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmAnulacion.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.FrmContrasena.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmEvento.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmLogin.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantBanco.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantConcepto.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantCorrelativo.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantEvento.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmMantPais.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmNuevoUsuario.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmPrincipal.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmReciboEvento.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmReporteEvento.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmReporteGlobal.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPrevia.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaConceptoUsuario.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaEventoDetalle.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAlimentacion.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalAnulados.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalConcepto.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalDetalle.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.frmVistaPreviaGlobalPais.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.Properties.Resources.resources
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RSA02.csproj.GenerateResource.Cache
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RdlCompile.cache
+C:\Users\Erik\Documents\FUENTES\RecibosSA_CI\RSA02\obj\Debug\RdlCompile.compiled

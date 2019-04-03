@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dts_globalFecha" targetNamespace="http://tempuri.org/dts_globalFecha.xsd" xmlns:mstns="http://tempuri.org/dts_globalFecha.xsd" xmlns="http://tempuri.org/dts_globalFecha.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dts_globalFecha" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dts_globalFecha" msprop:Generator_UserDSName="dts_globalFecha">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dts_globalFecha" msprop:Generator_TableClassName="dts_globalFechaDataTable" msprop:Generator_TableVarName="tabledts_globalFecha" msprop:Generator_TablePropName="_dts_globalFecha" msprop:Generator_RowDeletingName="dts_globalFechaRowDeleting" msprop:Generator_RowChangingName="dts_globalFechaRowChanging" msprop:Generator_RowEvHandlerName="dts_globalFechaRowChangeEventHandler" msprop:Generator_RowDeletedName="dts_globalFechaRowDeleted" msprop:Generator_UserTableName="dts_globalFecha" msprop:Generator_RowChangedName="dts_globalFechaRowChanged" msprop:Generator_RowEvArgName="dts_globalFechaRowChangeEvent" msprop:Generator_RowClassName="dts_globalFechaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" msprop:Generator_UserColumnName="usuario" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="concepto" msprop:Generator_ColumnVarNameInTable="columnconcepto" msprop:Generator_ColumnPropNameInRow="concepto" msprop:Generator_ColumnPropNameInTable="conceptoColumn" msprop:Generator_UserColumnName="concepto" type="xs:string" minOccurs="0" />
+              <xs:element name="precio" msprop:Generator_ColumnVarNameInTable="columnprecio" msprop:Generator_ColumnPropNameInRow="precio" msprop:Generator_ColumnPropNameInTable="precioColumn" msprop:Generator_UserColumnName="precio" type="xs:string" minOccurs="0" />
+              <xs:element name="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" msprop:Generator_UserColumnName="cantidad" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:string" minOccurs="0" />
+              <xs:element name="medio_pago" msprop:Generator_ColumnVarNameInTable="columnmedio_pago" msprop:Generator_ColumnPropNameInRow="medio_pago" msprop:Generator_ColumnPropNameInTable="medio_pagoColumn" msprop:Generator_UserColumnName="medio_pago" type="xs:string" minOccurs="0" />
+              <xs:element name="numero_cheque" msprop:Generator_ColumnVarNameInTable="columnnumero_cheque" msprop:Generator_ColumnPropNameInRow="numero_cheque" msprop:Generator_ColumnPropNameInTable="numero_chequeColumn" msprop:Generator_UserColumnName="numero_cheque" type="xs:string" minOccurs="0" />
+              <xs:element name="banco" msprop:Generator_ColumnVarNameInTable="columnbanco" msprop:Generator_ColumnPropNameInRow="banco" msprop:Generator_ColumnPropNameInTable="bancoColumn" msprop:Generator_UserColumnName="banco" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_inicial" msprop:Generator_ColumnVarNameInTable="columnfecha_inicial" msprop:Generator_ColumnPropNameInRow="fecha_inicial" msprop:Generator_ColumnPropNameInTable="fecha_inicialColumn" msprop:Generator_UserColumnName="fecha_inicial" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_final" msprop:Generator_ColumnVarNameInTable="columnfecha_final" msprop:Generator_ColumnPropNameInRow="fecha_final" msprop:Generator_ColumnPropNameInTable="fecha_finalColumn" msprop:Generator_UserColumnName="fecha_final" type="xs:string" minOccurs="0" />
+              <xs:element name="evento" msprop:Generator_ColumnVarNameInTable="columnevento" msprop:Generator_ColumnPropNameInRow="evento" msprop:Generator_ColumnPropNameInTable="eventoColumn" msprop:Generator_UserColumnName="evento" type="xs:string" minOccurs="0" />
+              <xs:element name="recibo_fisico" msprop:Generator_ColumnVarNameInTable="columnrecibo_fisico" msprop:Generator_ColumnPropNameInRow="recibo_fisico" msprop:Generator_ColumnPropNameInTable="recibo_fisicoColumn" msprop:Generator_UserColumnName="recibo_fisico" type="xs:string" minOccurs="0" />
+              <xs:element name="serie" msprop:Generator_ColumnVarNameInTable="columnserie" msprop:Generator_ColumnPropNameInRow="serie" msprop:Generator_ColumnPropNameInTable="serieColumn" msprop:Generator_UserColumnName="serie" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
