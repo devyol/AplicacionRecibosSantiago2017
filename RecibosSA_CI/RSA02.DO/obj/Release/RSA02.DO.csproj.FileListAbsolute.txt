@@ -34,3 +34,11 @@ C:\Users\Erik\Documents\APP SOURCE\BK REC01\RecibosSA_CI\RSA02.DO\bin\Release\En
 C:\Users\Erik\Documents\APP SOURCE\BK REC01\RecibosSA_CI\RSA02.DO\obj\Release\RSA02.DO.dll
 C:\Users\Erik\Documents\APP SOURCE\BK REC01\RecibosSA_CI\RSA02.DO\obj\Release\RSA02.DO.pdb
 C:\Users\Erik\Documents\APP SOURCE\BK REC01\RecibosSA_CI\RSA02.DO\obj\Release\RSA02.DO.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\bin\Release\RSA02.DO.dll.config
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\bin\Release\RSA02.DO.dll
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\bin\Release\RSA02.DO.pdb
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\bin\Release\EntityFramework.dll
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\bin\Release\EntityFramework.xml
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\obj\Release\RSA02.DO.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\obj\Release\RSA02.DO.dll
+C:\Users\Erik\Documents\Source\AplicacionRecibosSantiago2017\RecibosSA_CI\RSA02.DO\obj\Release\RSA02.DO.pdb
